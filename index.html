@@ -4,9 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Star Battle Solver</title>
 </head>
 <body>
   
+  <!-- found at https://stackoverflow.com/a/7411832 -->
+  <select onchange="document.getElementById('preview').src = this.value">
+    <option selected disabled>Select a board</option>
+    <option value="./img/puzzles/8x8_5_10_3_1star.png">8x8 1-star</option>
+    <option value="./img/puzzles/10x10_1_1_10_2star.png">10x10 2-star 1</option>
+    <option value="./img/puzzles/10x10_1_1_11_2star.png">10x10 2-star 2</option>
+    <option value="./img/puzzles/10x10_1_1_12_2star.png">10x10 2-star 3</option>
+    <option value="./img/puzzles/10x10_1_1_13_2star.png">10x10 2-star 4</option>
+    <option value="./img/puzzles/10x10_1_1_22_2star.png">10x10 2-star 5</option>
+    <option value="./img/puzzles/10x10_1_2_1_2star.png">10x10 2-star 6</option>
+    <option value="./img/puzzles/10x10_1_2_8_2star.png">10x10 2-star 7</option>
+    <option value="./img/puzzles/10x10_1_2_9_2star.png">10x10 2-star 8</option>
+    <option value="./img/puzzles/10x10_1_2_21_2star.png">10x10 2-star 9</option>
+    <option value="./img/puzzles/10x10_1_2_22_2star.png">10x10 2-star 10</option>
+    <option value="./img/puzzles/10x10_1_2_23_2star.png">10x10 2-star 11</option>
+    <option value="./img/puzzles/10x10_1_3_3_2star.png">10x10 2-star 12</option>
+    <option value="./img/puzzles/10x10_1_3_5_2star.png">10x10 2-star 13</option>
+    <option value="./img/puzzles/10x10_1_3_15_2star.png">10x10 2-star 14</option>
+    <option value="./img/puzzles/10x10_1_3_20_2star.png">10x10 2-star 15</option>
+    <option value="./img/puzzles/10x10_1_3_23_2star.png">10x10 2-star 16</option>
+    <option value="./img/puzzles/10x10_2_4_10_2star.png">10x10 2-star 17</option>
+    <option value="./img/puzzles/14x14_4_6_12_3star.png">14x14 3-star 1</option>
+    <option value="./img/puzzles/14x14_4_7_3_3star.png">14x14 3-star 2</option>
+  </select>
+  <br>
+  <img id="preview">
 </body>
 </html>
